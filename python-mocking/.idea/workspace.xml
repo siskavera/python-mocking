@@ -35,6 +35,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples/pitfalls" />
       <recent name="$PROJECT_DIR$/src/mock_object" />
     </key>
   </component>
@@ -50,55 +51,134 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2_magic_mock">
-    <configuration name="2_magic_mock" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for 3_where_to_patch.TestIsWeekday">
+    <configuration name="Unittests for 2_test_dog_mock_patch.TestDog" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-mocking" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/mock_object" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/patching" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/mock_object/2_magic_mock.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;2_test_dog_mock_patch.TestDog&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="mock_object" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for 2_test_dog_mock_patch.TestDog.test_get_pedigree_patch" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-mocking" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/patching" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/mock_object/1_mock_object.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;2_test_dog_mock_patch.TestDog.test_get_pedigree_patch&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for 3_where_to_patch.TestIsInTimePeriod" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-mocking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/pitfalls" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;3_where_to_patch.TestIsInTimePeriod&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for 3_where_to_patch.TestIsInTimePeriod.test_is_in_period" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-mocking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/pitfalls" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;3_where_to_patch.TestIsInTimePeriod.test_is_in_period&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for 3_where_to_patch.TestIsWeekday" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-mocking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/pitfalls" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;3_where_to_patch.TestIsWeekday&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for examples.patching" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-mocking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/patching" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;examples.patching&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for src.examples.test_dog_mock_patch.TestDog" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-mocking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;src.examples.test_dog_mock_patch.TestDog&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for src.examples.test_dog_mock_patch.TestDog" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-mocking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;src.examples.test_dog_mock_patch.TestDog&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2_magic_mock" />
-        <item itemvalue="Python.mock_object" />
+        <item itemvalue="Python tests.Unittests for 3_where_to_patch.TestIsWeekday" />
+        <item itemvalue="Python tests.Unittests for 3_where_to_patch.TestIsInTimePeriod.test_is_in_period" />
+        <item itemvalue="Python tests.Unittests for 2_test_dog_mock_patch.TestDog.test_get_pedigree_patch" />
+        <item itemvalue="Python tests.Unittests for 2_test_dog_mock_patch.TestDog" />
+        <item itemvalue="Python tests.Unittests for 3_where_to_patch.TestIsInTimePeriod" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +196,7 @@
       <workItem from="1568006802766" duration="237000" />
       <workItem from="1568216373862" duration="838000" />
       <workItem from="1568217286824" duration="10000" />
-      <workItem from="1568976691628" duration="384000" />
+      <workItem from="1568976691628" duration="5899000" />
     </task>
     <servers />
   </component>
@@ -125,6 +205,19 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_mocking$mock_object.coverage" NAME="mock_object Coverage Results" MODIFIED="1567777873744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/python_mocking$Unittests_for_test_dog_patch_TestDogWithPatcher.coverage" NAME="Unittests for test_dog_patch.TestDogWithPatcher Coverage Results" MODIFIED="1568986877368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/examples" />
+    <SUITE FILE_PATH="coverage/python_mocking$Unittests_for_test_dog_no_patch_TestDog_test_get_pedigree.coverage" NAME="Unittests for test_dog_no_patch.TestDog.test_get_pedigree Coverage Results" MODIFIED="1568985657038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/assertions" />
+    <SUITE FILE_PATH="coverage/python_mocking$Unittests_in_patching.coverage" NAME="Unittests in patching Coverage Results" MODIFIED="1568988840637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/patching" />
     <SUITE FILE_PATH="coverage/python_mocking$2_magic_mock.coverage" NAME="2_magic_mock Coverage Results" MODIFIED="1567777942558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/mock_object" />
+    <SUITE FILE_PATH="coverage/python_mocking$Unittests_for_2_test_dog_mock_patch_TestDog.coverage" NAME="Unittests for 2_test_dog_mock_patch.TestDog Coverage Results" MODIFIED="1568989041611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/patching" />
+    <SUITE FILE_PATH="coverage/python_mocking$Unittests_for_test_dog_patch_TestDog.coverage" NAME="Unittests for test_dog_patch.TestDog Coverage Results" MODIFIED="1568986588355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/examples" />
+    <SUITE FILE_PATH="coverage/python_mocking$Unittests_for_2_test_dog_mock_patch_TestDog_test_get_pedigree_patch.coverage" NAME="Unittests for 2_test_dog_mock_patch.TestDog.test_get_pedigree_patch Coverage Results" MODIFIED="1568989050805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/patching" />
+    <SUITE FILE_PATH="coverage/python_mocking$Unittests_for_test_dog_no_patch_TestDog.coverage" NAME="Unittests for test_dog_no_patch.TestDog Coverage Results" MODIFIED="1568985343264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/assertions" />
+    <SUITE FILE_PATH="coverage/python_mocking$Unittests_for_3_where_to_patch_TestIsInTimePeriod.coverage" NAME="Unittests for 3_where_to_patch.TestIsInTimePeriod Coverage Results" MODIFIED="1568989003367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/pitfalls" />
+    <SUITE FILE_PATH="coverage/python_mocking$Unittests_for_3_where_to_patch_TestDog.coverage" NAME="Unittests for 3_where_to_patch.TestDog Coverage Results" MODIFIED="1568988612210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/examples" />
+    <SUITE FILE_PATH="coverage/python_mocking$Unittests_for_3_where_to_patch_TestIsInTimePeriod_test_is_in_period.coverage" NAME="Unittests for 3_where_to_patch.TestIsInTimePeriod.test_is_in_period Coverage Results" MODIFIED="1568989058913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/pitfalls" />
+    <SUITE FILE_PATH="coverage/python_mocking$Unittests_for_test_dog_patch_TestDog_test_get_pedigree.coverage" NAME="Unittests for test_dog_patch.TestDog.test_get_pedigree Coverage Results" MODIFIED="1568985976779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/examples" />
+    <SUITE FILE_PATH="coverage/python_mocking$Unittests_for_3_where_to_patch_TestIsWeekday.coverage" NAME="Unittests for 3_where_to_patch.TestIsWeekday Coverage Results" MODIFIED="1568989171177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/pitfalls" />
+    <SUITE FILE_PATH="coverage/python_mocking$Unittests_for_test_dog_TestDog_test_bark.coverage" NAME="Unittests for test_dog.TestDog.test_bark Coverage Results" MODIFIED="1568984880249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/assertions" />
   </component>
 </project>
