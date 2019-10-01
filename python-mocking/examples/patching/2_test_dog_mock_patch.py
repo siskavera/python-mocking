@@ -73,3 +73,15 @@ class TestDogWithPatcher(unittest.TestCase):
         self.assertDictEqual(pedigree, {"father": "Hutch", "mother": "Daisy"})
         self.requests_mock.get.assert_called_once_with("http://www.dog-pedigree.com/Fluffy")
 
+
+class TestDogWithMockNoArgument(unittest.TestCase):
+    @patch("examples.patching.dog.requests.get", Mock(return_value=successful_response_mock))
+    def test_get_pedigree(self):
+        # given
+        fluffy = dog.Dog("Fluffy")
+
+        # when
+        pedigree = fluffy.get_pedigree()
+
+        # then
+        self.assertDictEqual(pedigree, {"father": "Hutch", "mother": "Daisy"})
