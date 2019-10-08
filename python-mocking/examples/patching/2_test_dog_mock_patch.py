@@ -13,6 +13,7 @@ successful_response_mock.json.return_value = {
 
 
 class TestDog(unittest.TestCase):
+    # Using patch with full path
     @patch("examples.patching.dog.requests")
     def test_get_pedigree_patch(self, mock_requests):
         # given
@@ -26,6 +27,7 @@ class TestDog(unittest.TestCase):
         self.assertDictEqual(pedigree, {"father": "Hutch", "mother": "Daisy"})
         mock_requests.get.assert_called_once_with("http://www.dog-pedigree.com/Fluffy")
 
+    # Using patch on an already imported object
     @patch.object(dog, "requests")
     def test_get_pedigree_patch_object(self, mock_requests):
         # given
@@ -39,6 +41,7 @@ class TestDog(unittest.TestCase):
         self.assertDictEqual(pedigree, {"father": "Hutch", "mother": "Daisy"})
         mock_requests.get.assert_called_once_with("http://www.dog-pedigree.com/Fluffy")
 
+    # Patch as a context manager
     def test_get_pedigree_patch_context_manager(self):
         # given
         fluffy = dog.Dog("Fluffy")
@@ -53,6 +56,7 @@ class TestDog(unittest.TestCase):
         mock_requests.get.assert_called_once_with("http://www.dog-pedigree.com/Fluffy")
 
 
+# Manual patch management
 class TestDogWithPatcher(unittest.TestCase):
     def setUp(self):
         self.requests_patch = patch.object(dog, "requests")
@@ -74,6 +78,7 @@ class TestDogWithPatcher(unittest.TestCase):
         self.requests_mock.get.assert_called_once_with("http://www.dog-pedigree.com/Fluffy")
 
 
+# No input argument needed with a pre-configured Mock passed to patch
 class TestDogWithMockNoArgument(unittest.TestCase):
     @patch("examples.patching.dog.requests.get", Mock(return_value=successful_response_mock))
     def test_get_pedigree(self):

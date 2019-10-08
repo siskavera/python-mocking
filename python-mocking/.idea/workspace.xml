@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbdd7a5d-ced7-4dd1-80f8-0e057269a0dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../PythonMockingDemo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonMockingDemo.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/pitfalls/weekday.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/pitfalls/weekday.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/patching/2_test_dog_mock_patch.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/patching/2_test_dog_mock_patch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pitfalls/1_order_of_arguments.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/pitfalls/1_order_of_arguments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/pitfalls/2_where_to_patch.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/pitfalls/2_where_to_patch.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +164,8 @@
       <workItem from="1569220101482" duration="310000" />
       <workItem from="1569940839554" duration="3212000" />
       <workItem from="1570454008764" duration="1207000" />
-      <workItem from="1570531418312" duration="1664000" />
+      <workItem from="1570531418312" duration="1689000" />
+      <workItem from="1570547163727" duration="160000" />
     </task>
     <task id="LOCAL-00001" summary="Add more examples">
       <created>1569947262603</created>
@@ -179,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569947514347</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Last adjustments">
+      <created>1570533478843</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570533478843</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +210,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add more examples" />
     <MESSAGE value="Add example with argument-less mock" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add example with argument-less mock" />
+    <MESSAGE value="Last adjustments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last adjustments" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_mocking$mock_object.coverage" NAME="mock_object Coverage Results" MODIFIED="1567777873744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />

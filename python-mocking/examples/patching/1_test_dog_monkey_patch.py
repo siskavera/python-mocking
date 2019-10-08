@@ -5,6 +5,7 @@ from requests import Timeout
 
 from examples.patching import dog
 
+# First configure our mock
 successful_response_mock = Mock()
 successful_response_mock.status_code = 200
 successful_response_mock.json.return_value = {
@@ -13,6 +14,8 @@ successful_response_mock.json.return_value = {
 }
 
 get_mock = Mock(side_effect=[Timeout, successful_response_mock])
+
+# Monkey patch to replace requests in the module with our mock
 dog.requests.get = get_mock
 
 

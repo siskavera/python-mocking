@@ -11,6 +11,7 @@ successful_response_mock.json.return_value = {
 }
 
 
+# Arguments are ordered backwards
 @patch("examples.pitfalls.weekday.is_weekday")
 @patch("examples.pitfalls.weekday.requests.get")
 class TestGreeting(unittest.TestCase):
