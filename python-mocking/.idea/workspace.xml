@@ -118,7 +118,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in 2_test_dog_mock_patch.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in 1_test_dog_mock_patch.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-mocking" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,7 +129,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/examples/patching/2_test_dog_mock_patch.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/examples/patching/1_test_dog_mock_patch.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -138,7 +138,7 @@
         <item itemvalue="Python tests.Unittests for 1_test_dog_monkey_patch.TestDog.test_bark" />
         <item itemvalue="Python tests.Unittests for 1_test_dog_monkey_patch.TestDog" />
         <item itemvalue="Python tests.Unittests for 2_test_dog_mock_patch.TestDog.test_get_profile_patch_context_manager" />
-        <item itemvalue="Python tests.Unittests in 2_test_dog_mock_patch.py" />
+        <item itemvalue="Python tests.Unittests in 1_test_dog_mock_patch.py" />
         <item itemvalue="Python tests.Unittests for 1_test_dog_monkey_patch.TestDog.test_get_pedigree" />
       </list>
     </recent_temporary>
