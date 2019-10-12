@@ -29,8 +29,8 @@ class TestDog(unittest.TestCase):
         fluffy = dog.Dog("Fluffy")
 
         # when
-        pedigree = fluffy.get_pedigree()
+        profile = fluffy.get_profile()
 
         # then
-        self.assertDictEqual(pedigree, {"father": "Hutch", "mother": "Daisy"})
-        get_mock.assert_called_once_with("http://www.dog-pedigree.com/Fluffy")
+        self.assertDictEqual(profile, {"father": "Hutch", "mother": "Daisy"})
+        get_mock.assert_called_once_with("http://www.dogbook.com/Fluffy")
