@@ -8,8 +8,8 @@ class Dog:
     def bark(self):
         return "Woof!"
 
-    def get_pedigree(self): # TODO Rename
-        response = requests.get("http://www.dog-pedigree.com/{}".format(self.name))
+    def get_profile(self): # TODO Rename
+        response = requests.get("http://www.dogbook.com/{}".format(self.name))
 
         if response.status_code == 200:
             return response.json()
