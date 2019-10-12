@@ -51,7 +51,7 @@ class TestDog(unittest.TestCase):
             # when
             pedigree = fluffy.get_pedigree()
 
-        # then
+        # then TODO Check why it works out of context
         self.assertDictEqual(pedigree, {"father": "Hutch", "mother": "Daisy"})
         mock_requests.get.assert_called_once_with("http://www.dog-pedigree.com/Fluffy")
 

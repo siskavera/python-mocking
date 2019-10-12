@@ -1,7 +1,6 @@
 import unittest
-from unittest.mock import Mock, call
+from unittest.mock import Mock
 
-from requests import Timeout
 
 from examples.patching import dog
 
@@ -13,7 +12,7 @@ successful_response_mock.json.return_value = {
     "mother": "Daisy"
 }
 
-get_mock = Mock(side_effect=[Timeout, successful_response_mock])
+get_mock = Mock(return_value=successful_response_mock)
 
 # Monkey patch to replace requests in the module with our mock
 dog.requests.get = get_mock
@@ -29,15 +28,9 @@ class TestDog(unittest.TestCase):
         # given
         fluffy = dog.Dog("Fluffy")
 
-        # when -> then
-        with self.assertRaises(Timeout):
-            fluffy.get_pedigree()
-
         # when
         pedigree = fluffy.get_pedigree()
 
         # then
         self.assertDictEqual(pedigree, {"father": "Hutch", "mother": "Daisy"})
-        self.assertEqual(get_mock.call_count, 2)
-        self.assertListEqual(get_mock.call_args_list,
-                             [call("http://www.dog-pedigree.com/Fluffy"), call("http://www.dog-pedigree.com/Fluffy")])
+        get_mock.assert_called_once_with("http://www.dog-pedigree.com/Fluffy")
