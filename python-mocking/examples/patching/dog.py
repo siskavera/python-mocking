@@ -8,7 +8,7 @@ class Dog:
     def bark(self):
         return "Woof!"
 
-    def get_profile(self): # TODO Rename
+    def get_profile(self):
         response = requests.get("http://www.dogbook.com/{}".format(self.name))
 
         if response.status_code == 200:
