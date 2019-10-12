@@ -51,7 +51,7 @@ class TestDog(unittest.TestCase):
             # when
             profile = fluffy.get_profile()
 
-        # then TODO Check why it works out of context
+        # then
         self.assertDictEqual(profile, {"father": "Hutch", "mother": "Daisy"})
         mock_requests.get.assert_called_once_with("http://www.dogbook.com/Fluffy")
 
