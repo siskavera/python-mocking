@@ -13,6 +13,11 @@ successful_response_mock.json.return_value = {
 
 
 class TestDog(unittest.TestCase):
+    def test_bark(self):
+        fluffy = dog.Dog("Fluffy")
+
+        self.assertEqual("Woof!", fluffy.bark())
+
     # Using patch with full path
     @patch("examples.patching.dog.requests")
     def test_get_profile_patch(self, mock_requests):
